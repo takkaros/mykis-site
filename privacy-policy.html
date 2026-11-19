@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mykis privacy policy</title>
+<meta name="description" content="Privacy policy of Mykis, the Cyprus mushroom forecast map. English and Greek.">
+<style>
+:root { --paper: #f6f3ec; --ink: #1f1d1a; --ink-2: #55504a; --rule: #d9d3c7; --violet: #5b3fa8; }
+@media (prefers-color-scheme: dark) { :root { --paper: #171614; --ink: #ece8e1; --ink-2: #b3ada4; --rule: #34312c; --violet: #b9a6f2; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+main { max-width: 68ch; margin: 0 auto; padding: 32px 16px 64px; }
+article + article { margin-top: 48px; padding-top: 32px; border-top: 1px solid var(--rule); }
+h1 { font-size: 1.6rem; line-height: 1.2; margin: 0 0 6px; }
+h2 { font-size: 1.05rem; margin: 28px 0 6px; }
+p { margin: 0 0 12px; color: var(--ink-2); }
+p.eff { font-size: .9rem; margin-bottom: 20px; }
+a { color: var(--violet); }
+</style>
+</head>
+<body>
+<main>
+<article id="en" lang="en">
+<h1>Mykis privacy policy</h1>
+<p class="eff"><time datetime="2026-11-19">Effective 19 November 2026</time> · <a href="#el" lang="el">Ελληνικά</a></p>
+<h2>In short</h2>
+<p>Mykis is a mushroom forecast map for Cyprus. It has no accounts, no ads, no analytics and no crash reporting. Its developer runs no server and receives none of your data. This policy explains what the app does with information and which outside services it talks to.</p>
+<h2>What stays on your phone</h2>
+<p>Your finds (species, date, spot, note, photo, quantity), visit answers, saved places, home area, watchlist, reminders, the walk in progress and your settings are stored only on this phone, as are cached weather and map tiles. In the Android app, backups are switched off, so none of this is copied to Google or to another phone.</p>
+<p>A find photo is resized and saved again as a new JPEG, which removes camera metadata such as GPS. If that step fails, the photo is not saved. Photos leave the phone only if you export your finds.</p>
+<h2>Location</h2>
+<p>Mykis uses your location only for what you choose: showing where you are on the map, saving a find at your location, setting your home area during setup, a walk, sharing your position with a group, or a group report such as a call for help. It follows your position continuously only during a walk or a position share; in the Android app this always shows a visible notification. It does not ask for background location permission.</p>
+<p>Your coordinates are never sent to the developer, nor to weather or map services. A walk’s trail is kept until the walk ends and leaves the phone only if you export it as a GPX file. Your location reaches other people only through groups, end-to-end encrypted, as described below.</p>
+<h2>Online services</h2>
+<p>Weather comes from Open-Meteo. The app asks for a fixed set of points across the island, the same for everyone. When you open the weather for a spot, that spot is sent rounded to about 10 km. If Open-Meteo fails, MET Norway or wttr.in are asked for regional points instead.</p>
+<p>Map tiles come from OpenFreeMap and from elevation tiles hosted by Amazon Web Services. The satellite and aerial photo layers, when you turn them on, come from EOX and the Cyprus Department of Lands and Surveys. These services see which tiles are requested, so roughly which area you are looking at. That includes the area of an offline trip you prepare, and the area around you when the map shows your position.</p>
+<p>Like any website, each of these services sees your device’s IP address and may keep ordinary server logs under its own privacy policy. Mykis sends them no name, account or identifier of yours.</p>
+<p>Links you tap open outside the app: directions in Google Maps (which receives the destination), research papers and source credits. Those sites’ own policies apply.</p>
+<h2>Groups (optional)</h2>
+<p>Groups stay off until you create or join one, or show your friend code. Until then the app makes no connection to group relays. Your phone creates its own key: there is no phone number, e-mail or account, and the name you type is the only name others see. In the Android app the key is sealed by the Android Keystore. You can export it to move to a new phone; anyone holding it can write as you.</p>
+<p>Group messages travel end-to-end encrypted through public Nostr relays run by third parties, by default nos.lol, relay.damus.io and relay.primal.net. Only members can read names, chat, finds, positions, help calls, meeting points and rain reports. Relays cannot read them, but they can see your public key, the public keys a message is addressed to, roughly when messages are sent, the list of relays where you receive messages, and your IP address. Each relay decides how long it keeps the encrypted messages.</p>
+<p>A shared find goes as a rough area of about 2 km by default; you can choose the exact spot, or a place name only. Photos and journal notes are never sent; you can add a short note for the group. Position sharing lasts up to 2 hours at a time and you can stop it at any moment. Members can keep what they receive: a removal request only asks them to delete it. In legacy link groups, anyone holding the invite link can read and write.</p>
+<p>Group history on this phone is kept until you delete it, or for 7, 30 or 90 days if you choose. Only each member’s latest position is stored, never a trail. Leaving a group deletes it from this phone.</p>
+<h2>Notifications, files and sharing</h2>
+<p>Reminders are scheduled on the phone itself; there is no push service. Exports (finds, GPX walks, season cards) go to the Android share sheet, and you choose where they go. Season cards show village names, never coordinates. A finds export holds your finds with their photos and coordinates, so share it with care.</p>
+<h2>Deleting your data</h2>
+<p>“Delete all my data”, in Finds, removes your finds and their photos, visit answers, watchlist, home area, saved places, reminders and the walk in progress. Groups and the offline trip pack stay: leave or remove them separately. Language, theme and map settings, cached weather and map tiles also stay. Uninstalling Mykis removes everything it stored.</p>
+<p>The developer holds none of your data, so there is nothing to delete on our side. If you used groups, relays may still hold your public key, your inbox relay list and encrypted messages. Third parties run them, so neither we nor the app can delete anything there; each relay decides how long it keeps it. Copies kept by group members are also outside our control.</p>
+<h2>Your rights</h2>
+<p>Under the GDPR you have rights over your personal data. Because Mykis keeps your data only on your phone, you exercise them directly with the app’s own controls. For data held by the services named above, contact them. You can also complain to the Commissioner for Personal Data Protection in Cyprus.</p>
+<h2>Children</h2>
+<p>Mykis is not aimed at children. Its developer receives no data from anyone.</p>
+<h2>Changes and contact</h2>
+<p>If this policy changes, the new version ships with the app and at its published address, with a new effective date. Questions: [CONTACT EMAIL].</p>
+</article>
+<article id="el" lang="el">
+<h1>Πολιτική απορρήτου του Μύκη</h1>
+<p class="eff"><time datetime="2026-11-19">Ισχύει από 19 Νοεμβρίου 2026</time> · <a href="#en" lang="en">English</a></p>
+<h2>Με λίγα λόγια</h2>
+<p>Ο Μύκης είναι χάρτης πρόγνωσης μανιταριών για την Κύπρο. Δεν έχει λογαριασμούς, διαφημίσεις, στατιστικά χρήσης ή αναφορές σφαλμάτων. Ο δημιουργός του δεν έχει δικό του διακομιστή και δεν λαμβάνει κανένα δεδομένο σας. Η πολιτική αυτή εξηγεί τι κάνει η εφαρμογή με τις πληροφορίες και με ποιες εξωτερικές υπηρεσίες επικοινωνεί.</p>
+<h2>Τι μένει στο τηλέφωνό σας</h2>
+<p>Τα ευρήματά σας (είδος, ημερομηνία, σημείο, σημείωση, φωτογραφία, ποσότητα), οι απαντήσεις για εξορμήσεις, οι αποθηκευμένες τοποθεσίες, η περιοχή σας, η λίστα παρακολούθησης, οι υπενθυμίσεις, η βόλτα σε εξέλιξη και οι ρυθμίσεις σας αποθηκεύονται μόνο σε αυτό το τηλέφωνο, όπως και ο καιρός και τα πλακίδια χάρτη που κρατά η εφαρμογή. Στην εφαρμογή Android τα αντίγραφα ασφαλείας είναι κλειστά, οπότε τίποτα από αυτά δεν αντιγράφεται στην Google ή σε άλλο κινητό.</p>
+<p>Η φωτογραφία ενός ευρήματος μικραίνει και αποθηκεύεται ξανά ως νέο JPEG, κάτι που αφαιρεί τα μεταδεδομένα της κάμερας, όπως το GPS. Αν αυτό αποτύχει, η φωτογραφία δεν αποθηκεύεται. Οι φωτογραφίες φεύγουν από το τηλέφωνο μόνο αν κάνετε εξαγωγή των ευρημάτων σας.</p>
+<h2>Τοποθεσία</h2>
+<p>Ο Μύκης χρησιμοποιεί τη θέση σας μόνο για όσα επιλέγετε: να δείξει πού είστε στον χάρτη, να αποθηκεύσει ένα εύρημα στη θέση σας, να ορίσει την περιοχή σας κατά την αρχική ρύθμιση, μια βόλτα, κοινοποίηση θέσης σε ομάδα ή μια αναφορά στην ομάδα, όπως κλήση βοήθειας. Παρακολουθεί συνεχώς τη θέση σας μόνο κατά τη βόλτα ή την κοινοποίηση θέσης· στην εφαρμογή Android αυτό γίνεται πάντα με ορατή ειδοποίηση. Δεν ζητά άδεια τοποθεσίας στο παρασκήνιο.</p>
+<p>Οι συντεταγμένες σας δεν στέλνονται ποτέ στον δημιουργό ούτε σε υπηρεσίες καιρού ή χαρτών. Η διαδρομή μιας βόλτας κρατιέται μέχρι να τελειώσει η βόλτα και φεύγει από το τηλέφωνο μόνο αν την εξαγάγετε ως αρχείο GPX. Η θέση σας φτάνει σε άλλους μόνο μέσω των ομάδων, κρυπτογραφημένη από άκρο σε άκρο, όπως περιγράφεται πιο κάτω.</p>
+<h2>Υπηρεσίες στο διαδίκτυο</h2>
+<p>Ο καιρός έρχεται από το Open-Meteo. Η εφαρμογή ζητά ένα σταθερό σύνολο σημείων σε όλο το νησί, το ίδιο για όλους. Όταν ανοίγετε τον καιρό για ένα σημείο, το σημείο στέλνεται στρογγυλεμένο σε περίπου 10 χλμ. Αν το Open-Meteo δεν απαντά, ζητούνται περιφερειακά σημεία από το MET Norway ή το wttr.in.</p>
+<p>Τα πλακίδια του χάρτη έρχονται από το OpenFreeMap και από πλακίδια υψομέτρου που φιλοξενεί η Amazon Web Services. Τα επίπεδα δορυφορικών εικόνων και αεροφωτογραφιών, όταν τα ανοίξετε, έρχονται από την EOX και το Τμήμα Κτηματολογίου και Χωρομετρίας. Οι υπηρεσίες αυτές βλέπουν ποια πλακίδια ζητούνται, άρα περίπου ποια περιοχή κοιτάζετε. Αυτό περιλαμβάνει την περιοχή μιας εκδρομής εκτός σύνδεσης που ετοιμάζετε και την περιοχή γύρω σας όταν ο χάρτης δείχνει τη θέση σας.</p>
+<p>Όπως κάθε ιστοσελίδα, κάθε μία από αυτές τις υπηρεσίες βλέπει τη διεύθυνση IP της συσκευής σας και μπορεί να κρατά συνηθισμένα αρχεία καταγραφής, σύμφωνα με τη δική της πολιτική απορρήτου. Ο Μύκης δεν τους στέλνει όνομα, λογαριασμό ή αναγνωριστικό σας.</p>
+<p>Οι σύνδεσμοι που πατάτε ανοίγουν έξω από την εφαρμογή: οδηγίες στους Χάρτες Google (που λαμβάνουν τον προορισμό), ερευνητικές εργασίες και αναφορές πηγών. Ισχύουν οι πολιτικές εκείνων των ιστοσελίδων.</p>
+<h2>Ομάδες (προαιρετικά)</h2>
+<p>Οι ομάδες μένουν ανενεργές μέχρι να φτιάξετε ή να μπείτε σε μία, ή να δείξετε τον κωδικό φίλου σας. Ως τότε η εφαρμογή δεν συνδέεται με αναμεταδότες ομάδων. Το τηλέφωνό σας φτιάχνει δικό του κλειδί: δεν υπάρχει αριθμός τηλεφώνου, ηλεκτρονικό ταχυδρομείο ή λογαριασμός, και το όνομα που γράφετε είναι το μόνο που βλέπουν οι άλλοι. Στην εφαρμογή Android το κλειδί σφραγίζεται από το Android Keystore. Μπορείτε να το εξαγάγετε για να περάσετε σε νέο κινητό· όποιος το έχει μπορεί να γράφει ως εσείς.</p>
+<p>Τα μηνύματα των ομάδων ταξιδεύουν κρυπτογραφημένα από άκρο σε άκρο μέσω δημόσιων αναμεταδοτών Nostr που λειτουργούν τρίτοι, εξ ορισμού των nos.lol, relay.damus.io και relay.primal.net. Μόνο τα μέλη διαβάζουν ονόματα, συνομιλίες, ευρήματα, θέσεις, κλήσεις βοήθειας, σημεία συνάντησης και αναφορές βροχής. Οι αναμεταδότες δεν μπορούν να τα διαβάσουν, βλέπουν όμως το δημόσιο κλειδί σας, τα δημόσια κλειδιά στα οποία απευθύνεται ένα μήνυμα, περίπου πότε στέλνονται τα μηνύματα, τη λίστα των αναμεταδοτών όπου λαμβάνετε μηνύματα και τη διεύθυνση IP σας. Κάθε αναμεταδότης αποφασίζει πόσο κρατά τα κρυπτογραφημένα μηνύματα.</p>
+<p>Ένα εύρημα κοινοποιείται εξ ορισμού ως κατά προσέγγιση περιοχή περίπου 2 χλμ.· μπορείτε να διαλέξετε το ακριβές σημείο ή μόνο όνομα τοποθεσίας. Φωτογραφίες και σημειώσεις ημερολογίου δεν στέλνονται ποτέ· μπορείτε να προσθέσετε σύντομη σημείωση για την ομάδα. Η κοινοποίηση θέσης κρατά έως 2 ώρες κάθε φορά και μπορείτε να τη σταματήσετε όποτε θέλετε. Τα μέλη μπορούν να κρατήσουν ό,τι λαμβάνουν· το αίτημα αφαίρεσης απλώς τους ζητά να το σβήσουν. Στις παλιές ομάδες με σύνδεσμο, όποιος έχει τον σύνδεσμο πρόσκλησης μπορεί να διαβάζει και να γράφει.</p>
+<p>Το ιστορικό των ομάδων σε αυτό το τηλέφωνο κρατιέται μέχρι να το σβήσετε, ή για 7, 30 ή 90 ημέρες αν το επιλέξετε. Από κάθε μέλος αποθηκεύεται μόνο η τελευταία θέση, ποτέ διαδρομή. Η αποχώρηση από μια ομάδα τη σβήνει από αυτό το τηλέφωνο.</p>
+<h2>Ειδοποιήσεις, αρχεία και κοινοποίηση</h2>
+<p>Οι υπενθυμίσεις προγραμματίζονται στο ίδιο το τηλέφωνο· δεν υπάρχει υπηρεσία απομακρυσμένων ειδοποιήσεων. Οι εξαγωγές (ευρήματα, βόλτες GPX, κάρτες σεζόν) πηγαίνουν στο μενού κοινοποίησης του Android και εσείς διαλέγετε πού θα πάνε. Οι κάρτες σεζόν δείχνουν χωριά, ποτέ συντεταγμένες. Η εξαγωγή ευρημάτων περιέχει τα ευρήματα με τις φωτογραφίες και τις συντεταγμένες τους, γι’ αυτό μοιραστείτε τη με προσοχή.</p>
+<h2>Διαγραφή των δεδομένων σας</h2>
+<p>Η «Διαγραφή όλων των δεδομένων μου», στα Ευρήματα, σβήνει τα ευρήματα και τις φωτογραφίες τους, τις απαντήσεις για εξορμήσεις, τη λίστα παρακολούθησης, την περιοχή σας, τις αποθηκευμένες τοποθεσίες, τις υπενθυμίσεις και τη βόλτα σε εξέλιξη. Οι ομάδες και το πακέτο εκτός σύνδεσης παραμένουν· αφαιρέστε τα χωριστά. Παραμένουν επίσης η γλώσσα, το θέμα, οι ρυθμίσεις χάρτη, ο αποθηκευμένος καιρός και τα πλακίδια χάρτη. Η απεγκατάσταση του Μύκη σβήνει ό,τι είχε αποθηκεύσει.</p>
+<p>Ο δημιουργός δεν κρατά δεδομένα σας, οπότε δεν υπάρχει τίποτα να σβηστεί από τη δική μας πλευρά. Αν χρησιμοποιήσατε ομάδες, οι αναμεταδότες μπορεί να κρατούν ακόμη το δημόσιο κλειδί σας, τη λίστα αναμεταδοτών όπου λαμβάνετε μηνύματα και κρυπτογραφημένα μηνύματα. Τους λειτουργούν τρίτοι, οπότε ούτε εμείς ούτε η εφαρμογή μπορούμε να σβήσουμε κάτι εκεί· κάθε αναμεταδότης αποφασίζει πόσο το κρατά. Αντίγραφα που κρατούν μέλη ομάδων είναι επίσης εκτός του ελέγχου μας.</p>
+<h2>Τα δικαιώματά σας</h2>
+<p>Σύμφωνα με τον ΓΚΠΔ έχετε δικαιώματα στα προσωπικά σας δεδομένα. Επειδή ο Μύκης κρατά τα δεδομένα σας μόνο στο τηλέφωνό σας, τα ασκείτε απευθείας με τα εργαλεία της εφαρμογής. Για δεδομένα που κρατούν οι υπηρεσίες που αναφέρονται πιο πάνω, απευθυνθείτε σε εκείνες. Μπορείτε επίσης να υποβάλετε παράπονο στον Επίτροπο Προστασίας Δεδομένων Προσωπικού Χαρακτήρα.</p>
+<h2>Παιδιά</h2>
+<p>Ο Μύκης δεν απευθύνεται σε παιδιά. Ο δημιουργός του δεν λαμβάνει δεδομένα από κανέναν.</p>
+<h2>Αλλαγές και επικοινωνία</h2>
+<p>Αν αλλάξει η πολιτική, η νέα έκδοση έρχεται με την εφαρμογή και στη δημοσιευμένη διεύθυνσή της, με νέα ημερομηνία ισχύος. Ερωτήσεις: [CONTACT EMAIL].</p>
+</article>
+</main>
+</body>
+</html>
